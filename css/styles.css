@@ -11,12 +11,49 @@ background: lightgoldenrodyellow;
 }
 #frame
 {
-    border: 1px solid black;
+    position: relative;
+   /* border: 1px solid black;*/
     width: 100px;
-    height: 50px;
-    background: navajowhite;
-    border: 7px solid white;
+    height: 60px;
+    background: white;
+    /*border: 7px solid white;*/
 }
+
+#sq3mid {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: red;
+    top: 10%;
+    left: 10%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#sq1ve {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#sq2ho {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: red;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
 #dleft {
     padding-left: 10px;
     padding-top: 10px;
