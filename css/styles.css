@@ -3,94 +3,139 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 body {
 background: lightgoldenrodyellow;
-
 }
+
 #logo {
     width: 40%;
 }
-#p1 {
-    font-family: "Open Sans";
-    font-size: 50px;
-    color:white;
-}
-#p2 {
-    font-family: "Georgia";
-    font-size: 40px;
-    color:white;
-    font-style: italic;
-}
-#frame
-{
-    position: relative;
-    width: 100px;
-    height: 60px;
-    background: white;
-    /*border: 7px solid white;*/
-}
-
-#sq3mid {
-    position: absolute;
-    width: 80%;
-    height: 66.67%;
-    /*background: yellow;*/
-    background: lightgrey;
-    top: 17%;
-    left: 10%;
-}
-#read {
-    font-family: "Verdana, Geneva, Tahoma, sans-serif";
-    font-size:18px;
-    color: white;
-    vertical-align: middle;
-    text-align: center;
-    height: 100%;
-    line-height: 40px;
-}
-
-#sq1ve {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    /*background: red;*/
-    background: lightgrey;
-    position: absolute;
-    top: 0;
-    left: 20%;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#sq2ho {
-    position: absolute;
-    width: 100%;
-    height: 33%;
-    /*background: green;*/
-    background: lightgrey;
-    position: absolute;
-    top: 33%;
-    left: 0;
-    vertical-align: middle;
-    text-align: center;
-}
-
 #dleft {
     padding-left: 10px;
     padding-top: 10px;
     width: 500px;
     height: 100%;
-    border: 1px solid black;
     position: absolute;
     left: 0;
     background: lightgrey;
     
 }
+#leftcontainer {
+    position: relative;
+    width: inherit;
+    height: 50%;
+
+}
+#aname {
+    position: absolute;
+    top: 60%;
+
+}
+#p1 {
+    font-family: "Book Antiqua";
+    font-size: 50px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#p2 {
+    font-family: "Georgia";
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    margin-top: -5px;
+}
+
+/*РАМОЧКИ*/
+
+#frames {
+    margin-top: 20px;
+    background: none;
+    position: relative;
+    width: 90px;
+    height: 40px;
+ }
+ #read {
+   position: absolute;
+   color: white;
+   font-family: "Georgia";
+   top: 20%;
+   left: 20%;
+    }
+   
+#topleft, #topright, #bottomleft, #bottomright {
+    width: 14px;
+    height: 14px;
+    border: 5px solid white;
+ }
+ #topleft {
+   position: absolute;
+   top:0;
+   left: 0;
+   border-right: none;
+   border-bottom: none;
+ }
+  #topright {
+   position: absolute;
+   top:0;
+   right: 0;
+   border-left: none;
+   border-bottom: none;
+ }
+   #bottomleft {
+   position: absolute;
+   bottom:0;
+   left: 0;
+   border-right: none;
+   border-top: none;
+}
+   #bottomleft {
+   position: absolute;
+   bottom:0;
+   left: 0;
+}
+   
+   #bottomright {
+   position: absolute;
+   bottom:0;
+   right: 0;
+   border-left: none;
+   border-top: none;
+}
+/*РАМОЧКИ*/
+
+#dcenter {
+    /*make scroll there*/
+}
 #dright {
+    padding: 35px 35px 0 35px;
     width: 100px;
     height: 100%;
-    border: 1px solid black;
     position: absolute;
     right: 0;
     background: lightgrey;
 }
+
+.menu {
+    width:30px;
+    height:24px;
+    position:relative;
+    display:inline-block;
+    border-top:4px solid black;
+}
+	.menu:after, .menu:before {
+	    content: '';
+	    width: 100%;
+	    height:4px;
+	    background-color:#000;
+	    position:absolute;
+	}
+	.menu:after {
+	    bottom:0px;
+	    left:0;
+	}
+	.menu:before {
+	    top:6px;
+	    left:0;
+	}
