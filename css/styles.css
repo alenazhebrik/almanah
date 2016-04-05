@@ -60,6 +60,7 @@ background-image: url("../img/background.jpg");
    position: absolute;
    color: white;
    font-family: "Open Sans", sans-serif;
+   font-weight: bold;
    top: 20%;
    left: 20%;
     }
