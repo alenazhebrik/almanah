@@ -59,12 +59,18 @@ background-image: url("../img/background.jpg");
  }
  #read {
    position: absolute;
+   
+   top: 22%;
+   left: 17%;
+ }
+
+ .readLink {
    color: white;
    font-family: "Open Sans" , sans-serif;
    font-weight: bold;
-   top: 22%;
-   left: 17%;
-    }
+   text-decoration: none;
+ }  
+
    
 #topleft, #topright, #bottomleft, #bottomright {
     width: 14px;
