@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 body {
-background-image: url("img/background.jpg");
+background-image: url("../img/background.jpg");
 }
 
 #logo {
@@ -33,7 +33,7 @@ background-image: url("img/background.jpg");
 
 }
 #p1 {
-    font-family: "Book Antiqua";
+    font-family: "Open Sans", sans-serif;
     font-size: 50px;
     color:white;
     text-transform: uppercase;
@@ -45,6 +45,7 @@ background-image: url("img/background.jpg");
     color:white;
     font-style: italic;
     margin-top: -5px;
+    margin-bottom: 40px;
 }
 
 /*РАМОЧКИ*/
@@ -59,9 +60,10 @@ background-image: url("img/background.jpg");
  #read {
    position: absolute;
    color: white;
-   font-family: "Georgia";
-   top: 20%;
-   left: 20%;
+   font-family: "Open Sans" , sans-serif;
+   font-weight: bold;
+   top: 22%;
+   left: 17%;
     }
    
 #topleft, #topright, #bottomleft, #bottomright {
