@@ -33,14 +33,14 @@ background-image: url("../img/background.jpg");
 
 }
 #p1 {
-    font-family: "Book Antiqua";
+    font-family: "Open Sans", sans-serif;
     font-size: 50px;
     color:white;
     text-transform: uppercase;
     font-weight: bold;
 }
 #p2 {
-    font-family: "Georgia";
+    font-family: "Georgia", sans-serif;
     font-size: 20px;
     color:white;
     font-style: italic;
@@ -59,7 +59,7 @@ background-image: url("../img/background.jpg");
  #read {
    position: absolute;
    color: white;
-   font-family: "Georgia";
+   font-family: "Open Sans", sans-serif;
    top: 20%;
    left: 20%;
     }
