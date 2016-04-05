@@ -72,13 +72,13 @@ background-image: url("../img/background.jpg");
    text-decoration: none;
  }  
 
-=======
+.readLink {
    font-family: "Open Sans", sans-serif;
    font-weight: bold;
    top: 20%;
    left: 20%;
     }
->>>>>>> 9b447505dedba14faad43c8ce0a06df91cc260e3
+
    
 #topleft, #topright, #bottomleft, #bottomright {
     width: 14px;
