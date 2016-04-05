@@ -5,9 +5,21 @@ box-sizing: border-box;
 }
 body {
 background: lightgoldenrodyellow;
+
 }
 #logo {
-    width: 60%;
+    width: 40%;
+}
+#p1 {
+    font-family: "Open Sans";
+    font-size: 50px;
+    color:white;
+}
+#p2 {
+    font-family: "Georgia";
+    font-size: 40px;
+    color:white;
+    font-style: italic;
 }
 #frame
 {
@@ -21,22 +33,31 @@ background: lightgoldenrodyellow;
 #sq3mid {
     position: absolute;
     width: 80%;
-    height: 80%;
-    background: red;
-    top: 10%;
+    height: 66.67%;
+    /*background: yellow;*/
+    background: lightgrey;
+    top: 17%;
     left: 10%;
+}
+#read {
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size:18px;
+    color: white;
     vertical-align: middle;
     text-align: center;
+    height: 100%;
+    line-height: 40px;
 }
 
 #sq1ve {
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 100%;
-    background: red;
+    /*background: red;*/
+    background: lightgrey;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 20%;
     vertical-align: middle;
     text-align: center;
 }
@@ -44,10 +65,11 @@ background: lightgoldenrodyellow;
 #sq2ho {
     position: absolute;
     width: 100%;
-    height: 50%;
-    background: red;
+    height: 33%;
+    /*background: green;*/
+    background: lightgrey;
     position: absolute;
-    top: 25%;
+    top: 33%;
     left: 0;
     vertical-align: middle;
     text-align: center;
@@ -56,7 +78,7 @@ background: lightgoldenrodyellow;
 #dleft {
     padding-left: 10px;
     padding-top: 10px;
-    width: 300px;
+    width: 500px;
     height: 100%;
     border: 1px solid black;
     position: absolute;
